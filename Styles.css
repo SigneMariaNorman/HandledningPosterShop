@@ -1,18 +1,28 @@
 body {
     margin: 0;
-    box-sizing: border-box   
+    box-sizing: border-box;
+  font-family: 'Gill Sans', sans-serif;
 }
 header {
-    background-color: #00FA9A;
-height: 80vh;
-padding: 1rem 1 rem 0;
-display: flex;
-flex-direction: column;
-justify-content: 
-}  
-.hamburger-navicon, .ninja {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrerar horisontellt */
+    justify-content: flex-end; /* Trycker innehållet längst ner */
+    height: 80vh;
+ background-color: #00FA9A;
+}
+ 
+.hamburger-navicon {
 width: fit-content;
 align-self: center;
+}
+.ninja {
+    width: fit-content;
+    margin-bottom: 0px;
+}
+.Astronaut{
+    width: fit-content;
 }
 h1 {
   align-self: center;
