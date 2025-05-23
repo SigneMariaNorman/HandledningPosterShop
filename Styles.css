@@ -10,7 +10,7 @@ header {
     flex-direction: column;
     align-items: center; /* Centrerar horisontellt */
     justify-content: flex-end; /* Trycker innehållet längst ner */
-    height: 80vh;
+    height: 100px;
  background-color: #00FA9A;
 }
  
