@@ -2,6 +2,7 @@ body {
     margin: 0;
     box-sizing: border-box;
   font-family: 'Gill Sans', sans-serif;
+  background-color: rgb rgb(18, 18, 18);
 }
 header {
     position: relative;
@@ -21,12 +22,34 @@ align-self: center;
     width: fit-content;
     margin-bottom: 0px;
 }
-.Astronaut{
-    width: fit-content;
-}
+
+
 h1 {
   align-self: center;
 }
+main {
+  max-width: 1054px;
+  margin: 5rem auto;
+}
   
-
+.Astronaut {
+    width: fit-content;
+}
+.Ninja2 {
+  width: fit-content;
+}
+.Nerd {
+  width: fit-content;
+}
+.small-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+.small-card {
+  color: white;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
   
+}
